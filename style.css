@@ -1,58 +1,44 @@
 body{
+
+}
+
+.form-floating{
     position: relative;
-width: 1440px;
-height: 1024px;
-background: #FFFFFF;
 }
 
-.title-header{
-position: absolute;
-width: 129px;
-height: 45px;
-left: 180px;
-top: 150px;
-}
-
-form{
+.bi-envelope-at, .bi-file-lock-fill{
     position: absolute;
-width: 992px;
-height: 110px;
-left: 450px;
-top: 320px;
-}
-
-.form-group{
-    padding: 10px;
-}
-
- .form-check, .btn-primary{
-    padding: 15px 0px 10px;
-    margin-left: 10px;
-}
-
-small{
-    position: absolute;
-width: 221px;
-height: 47px;
-left: 850px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-color: #001AFF;
+    top: calc(30%);
+    right: 1.25rem;
+    height: 5rem;
 }
 
 
-#emailHelp{
+
+.form-floating label,.form-control .form-control{
     
+    left: .25rem;
+    padding-left: 3.5rem;
 }
 
-button[type="submit"], btn{
-position: absolute;
-width: 992px;
-height: 40px;
-margin: 10px;
-background: #BA0D0D;
-border-radius:5px;
+
+.btn{
+    width: 100%;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
 }
